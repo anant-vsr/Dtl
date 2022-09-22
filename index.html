@@ -8,38 +8,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <title>COMPUTER SCIENCE | HOME</title>
+    
+    <title>Home</title>
   </head>
 
   <body>
     <!-- HEADING OF THE WEBSITE -->
     <header class="header">
-      <style>
-        strong {
-          color: red;
+      <!-- <style>
+        strong {-09
+          color: white;
         }
-      </style>
-      <h1>DIPLOMA IN COMPUTER <strong>SCIENCE</strong></h1>
+      </style> -->
+      <!-- <h1>DIPLOMA IN COMPUTER <strong>SCIENCE</strong></h1> -->
+      <!-- <h1>Pointers</h1> -->
+      <nav class="navbar h-nav-resp" id="home">
+        <ul class="nav-list v-class-resp">
+          <div class="logo"></div>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="html/notes.html">Notes</a></li>
+          <!-- <li><a href="html/practice.html">Practice</a></li> -->
+          <!-- <li><a href="html/about.html">About</a></li> -->
+          <li><a href="html/animation.html">Animation Videos</a></li>
+        </ul>
+        <!-- BUILDING OF HAMBURGER -->
+        <div class="burger" onclick="myFunction(this)">
+          <div class="line bar1"></div>
+          <div class="line bar2"></div>
+          <div class="line bar3"></div>
+        </div>
+      </nav>
     </header>
+
+    
     <!-- NAVIGATION BAR  FOR THE WEBSITES -->
-    <nav class="navbar h-nav-resp" id="home">
-      <ul class="nav-list v-class-resp">
-        <div class="logo">NAVBAR</div>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="html/notes.html">Notes</a></li>
-        <li><a href="html/timetable.html">TimeTable</a></li>
-        <li><a href="html/about.html">About</a></li>
-        <li><a href="html/contactus.html">Contact Us</a></li>
-      </ul>
-      <!-- BUILDING OF HAMBURGER -->
-      <div class="burger" onclick="myFunction(this)">
-        <div class="line bar1"></div>
-        <div class="line bar2"></div>
-        <div class="line bar3"></div>
-      </div>
-    </nav>
+    <div class="container"> 
+
+      <!-- <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!- Indicators -->
+        <!-- <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul> -->
+        
+        <!-- The slideshow -->
+        <!-- <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/" alt="Los Angeles" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/AnimeVideo.png" alt="Chicago" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/AnimeVideo1.png" alt="New York" width="1100" height="500">
+          </div>
+        </div>
+         -->
+        <!-- Left and right controls -->
+        <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div> --> 
+           <a href="https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/" class="stretched-link">
+        <div class="card card0">
+        
+          <div class="border">
+                      <div class="icons">
+              <i class="fa fa-codepen" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-dribbble" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </div>
+          </div>
+  
+        </div>
+
+      </a>
+      <a href="https://www.geeksforgeeks.org/double-pointer-pointer-pointer-c/#:~:text=So%2C%20when%20we%20define%20a,also%20known%20as%20double%20pointers.">
+        <div class="card card1" >
+          <div class="border">
+            
+            <div class="icons">
+              
+              <i class="fa fa-codepen" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-dribbble" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://www.geeksforgeeks.org/features-and-use-of-pointers-in-c-c/">
+        <div class="card card2">
+          <div class="border">
+            
+            <div class="icons">
+              <i class="fa fa-codepen" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-dribbble" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </a>
+      
+      
+    </div>
     <!-- CONTENT OF THE WEB SITE -->
-    <section class="homesecone">
+
+
+    <!-- <section class="homesecone">
       <div class="left-part">
         <h2>Hii!</h2>
         <p id="intro">
@@ -51,7 +138,7 @@
       <div class="right-part">
         <img class="img" src="img/cs.png" alt="img" />
       </div>
-    </section>
+    </section> -->
     <!-- <section class="founder">
       <h2 id="creater">Creater</h2>
       <img id="arjunsinghimg" src="img/ArjunSingh.jpg" alt="" height="400px" />
@@ -63,11 +150,11 @@
     </div>
     </section> -->
     <!-- footer -->
-    <footer>
+    <!-- <footer>
       <p class="text-footer background">
         copyright &copy; 2021 -ALL RIGHT RESERVE
       </p>
-    </footer>
+    </footer> -->
     <!-- transition for hamburger -->
     <script>
       function myFunction(x) {

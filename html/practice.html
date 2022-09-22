@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <title>Practice</title>
+</head>
+
+<body>
+    <header class="header">
+      
+        <nav class="navbar h-nav-resp" id="home">
+            <ul class="nav-list v-class-resp">
+                <!-- <div class="logo">NAVBAR</div> -->
+                <li><a href="../index.html">Home</a></li>
+               
+                <li><a href="notes.html">Notes</a></li>
+                <!-- <li><a href="practice.html">Practice</a></li> -->
+                <!-- <li><a href="about.html">About</a></li> -->
+                <li><a href="animation.html">Animation</a></li>
+            </ul>
+            <!-- BUILDING OF HAMBURGER -->
+            <div class="burger" onclick="myFunction(this)">
+                <div class="line bar1"></div>
+                <div class="line bar2"></div>
+                <div class="line bar3"></div>
+            </div>
+        </nav>
+      </header>
+   
+    <!-- CONTENT OF THE WEB SITE -->
+    <section class="sec2">
+        <div class="fouth-notes">
+            <h3>Pointers Exercises</h3>
+            <button class="button" onclick="window.location.href='https://www.hackerrank.com/challenges/c-tutorial-pointer/problem'"><span>Hackerrank</span></button>
+            <button class="button" onclick="window.location.href='https://www.geeksforgeeks.org/c-language-2-gq/pointers-gq/'"><span>geeksforgeeks</span></button>
+            <button class="button" onclick="window.location.href='https://www.w3resource.com/c-programming-exercises/pointer/index.php'"><span>w3resource</span></button>
+            <button class="button" onclick="window.location.href='https://codeforwin.org/2017/12/pointer-programming-exercises-and-solutions-in-c.html'"><span>Codeforwin</span></button>
+            
+            <!-- <table style="width: 100%">
+                <thead>
+                    <tr>
+                        <td>Book</td>
+                        <td>Author</td>
+                        <td class="text-center">Link</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>PointersNotes</td>
+                        <td>Krithika Venkataraman</td>
+                        <td class="text-center">
+                            <a href="../Syllabus/pointers.pdf">Open</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pointers and arrays</td>
+                        <td>Don Fussell, University of Texas at Austin</td>
+                        <td class="text-center">
+                            <a href="../Syllabus/C_Pointers_and_arrays.pdf">Open</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pointers and Memory</td>
+                        <td>Nick Parlante </td>
+                        <td class="text-center">
+                            <a href="../Syllabus/PointersAndMemory.pdf">Open</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Mastering C Pointers1</td>
+                        <td> Robert J. Traister</td>
+                        <td class="text-center">
+                            <a href="../Syllabus/Mastering C Pointers1.pdf">Open</a>
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>Mastering C Pointers2</td>
+                        <td> Robert J. Traister</td>
+                        <td class="text-center">
+                            <a href="../Syllabus/Mastering C Pointers2.pdf">Open</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table> -->
+        </div>
+    </section>
+    <!-- footer -->
+    <!-- <footer class="red" id="services">
+        <p class="text-footer background">
+            copyright &copy; 2021 -ALL RIGHT RESERVE
+        </p>
+    </footer> -->
+    <!-- transition for hamburger -->
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+</body>
+<script src="../script.js"></script>
+
+</html>
